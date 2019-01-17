@@ -57,10 +57,10 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 3.
+# Done
 #   Add another   print   statement below this comment.
 #   It should print any string that you want (but keep it polite and G-rated!)
-#
+print('world hello')
 #   Test your code by re-running this module, either by proceeding
 #   as you did when you ran this module the first time,
 #   or by pressing the green rightward-pointing triangle
@@ -71,22 +71,22 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 4.
+# Done
 #   Add yet another   print   statement, putting it below this comment.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
 #   You do NOT have to use strings for this, so no quotation marks!
-#
+print(3607*34227)
 #   TEST your code by re-running this module, then asking someone
 #   whom you trust:
-#      What number did your   print   display for this TO-DO?
+#      What number did your   print   display for this TO-DO? 123456789
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ###############################################################################
 
 ###############################################################################
 #
-# TODO: 5.
+# Done
 #   Look at the list of files in the Project window (to the left).
 #   Note that this file:
 #      m2_todo_and_commit_push.py
