@@ -32,7 +32,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 2.
+# Done
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
