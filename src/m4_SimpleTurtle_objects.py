@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# Done
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# Done
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -116,7 +116,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# Done
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -126,6 +126,8 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+betsy=rg.SimpleTurtle()
+betsy.forward(100)
 
 ###############################################################################
 #
