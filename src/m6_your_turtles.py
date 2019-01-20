@@ -72,3 +72,4 @@ for k in range(4):
     frank.forward(150)
     frank.right(90)
     frank.pen_down()
+window.close_on_mouse_click()
