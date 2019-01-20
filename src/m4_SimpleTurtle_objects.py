@@ -87,32 +87,32 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # The next few lines show how to:
 #   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
-boris = rg.SimpleTurtle()
+#boris = rg.SimpleTurtle()
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - Ask the SimpleTurtle object to do things by applying METHODs to it.
 # The numbers in the parentheses are called ARGUMENTS.
 # -----------------------------------------------------------------------------
-boris.forward(100)
-boris.left(90)
-boris.forward(200)
+#boris.forward(100)
+#boris.left(90)
+#boris.forward(200)
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - Construct a second SimpleTurtle,
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
-natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 5  # Bigger means faster, max is usually about 10
+#natasha = rg.SimpleTurtle('turtle')
+#natasha.pen = rg.Pen('blue', 30)  # Second argument is the Pen's thickness
+#natasha.speed = 5  # Bigger means faster, max is usually about 10
 
-natasha.backward(50)
-natasha.right(90)
-natasha.forward(125)
+#natasha.backward(50)
+#natasha.right(90)
+#natasha.forward(125)
 
-natasha.speed = 1  # Now slower
-natasha.go_to(rg.Point(-100, 200))
+#natasha.speed = 1  # Now slower
+#natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
@@ -131,7 +131,7 @@ betsy.forward(100)
 
 ###############################################################################
 #
-# TODO: 5.
+# Done
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -155,10 +155,19 @@ betsy.forward(100)
 #   As always, test by running the module.
 #
 ###############################################################################
-
+abigale=rg.SimpleTurtle('turtle')
+abigale.pen=rg.Pen('green',30)
+abigale.speed=6
+abigale.forward(100)
+abigale.right(90)
+abigale.forward(100)
+abigale.right(90)
+abigale.forward(100)
+abigale.right(90)
+abigale.forward(100)
 ###############################################################################
 #
-# TODO: 6.
+# Done.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
