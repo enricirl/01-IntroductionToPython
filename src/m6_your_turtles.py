@@ -2,10 +2,10 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Rachael Enrici.
 """
 ########################################################################
-# TODO: 1.
+# Done
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
@@ -28,3 +28,47 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+lily=rg.SimpleTurtle('turtle')
+lily.pen=rg.Pen('purple',25)
+lily.speed = 12
+size = 150
+
+for k in range(4):
+
+    lily.pen_down()
+    lily.draw_circle(size)
+
+    lily.pen_up()
+    lily.right(180)
+    lily.forward(150)
+    lily.pen_down()
+
+    lily.pen_up()
+    lily.backward(150)
+    lily.right(180)
+    lily.forward(150)
+    lily.right(90)
+    lily.pen_down()
+
+frank=rg.SimpleTurtle('turtle')
+frank.pen=rg.Pen('midnight blue',25)
+frank.speed= 12
+size1=100
+
+for k in range(4):
+    frank.pen_down()
+    frank.draw_circle(size1)
+
+    frank.pen_up()
+    frank.right(180)
+    frank.forward(150)
+    frank.pen_down()
+
+    frank.pen_up()
+    frank.backward(150)
+    frank.right(180)
+    frank.forward(150)
+    frank.right(90)
+    frank.pen_down()
